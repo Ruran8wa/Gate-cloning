@@ -4,9 +4,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
-    <title>Gate</title>
+    <title>University of Notre Dame</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <body class="">
+    <main>
+      <section
+        class="hero bg-[url(./images/hero.webp)] bg-cover bg-center bg-no-repeat h-[100vh] md:h-[60vh] lg:h-[100vh] flex flex-col justify-center md:items-end lg:items-end pt-0 pb-4 px-10 lg:px-24 gap-12"
+      >
+        <img
+          src="./images/hero-banner.svg"
+          alt=""
+          class="w-full lg:w-[20vw] md:w-[20vw] h-[40vh] md:h-[auto] lg:h-auto pt-8"
+        />
+        <div
+          class="text-white text-center md:text-right lg:text-right text-lg lg:text-2xl lg:leading-10 font-libre font-medium md:w-[40vw] lg:w-[35vw] flex flex-col items-center md:items-end lg:items-end"
+        >
+          <p>
+            Notre Dame attracts people willing to take action to find solutions
+            to humanity's most pressing challenges. "What would you fight for?"
+            For us, it's not a question. It's a call to action. We are the
+            Fighting Irish.
+          </p>
+          <button
+            class="cta bg-white text-blue-950 p-4 lg:py-3 lg:px-5 mt-12 rounded-lg font-normal flex items-center gap-1 lg:text-lg"
+          >
+            What would you fight for?
+            <img src="./images/external-link-gold.svg" alt="" class="w-5 h-5" />
+          </button>
+        </div>
+      </section>
+
+      <section
+        class="award-news grid grid-cols-1 lg:grid-cols-3 mt-4 lg:px-24 px-4 gap-24 md:gap-8 lg:gap-18 lg:items-center"
+      >
+        <div class="flex flex-col md:flex-row lg:flex-col gap-5 md:gap-2 lg:gap-5 font-sumana">
+          <img
+            src="./images/nafsa_800.webp"
+            alt=""
+            class="md:w-[40vw] md:h-auto lg:w-[30vw] lg:h-auto"
+          />
+          <div class="flex flex-col mx-8 lg:w-[28vw]">
+            <p class="font-poppins text-base lg:text-lg font-light">
+              UNIVERSITY
+            </p>
+            <div class="flex items-center gap-20">
+              <p class="text-2xl lg:text-4xl font-sumana text-[#0C2340] lg:leading-[42.5px]">
+                University of Notre Dame wins award for excellence in campus
+                internationalization
+              </p>
+              <img
+                src="./images/chevron-tight.svg"
+                alt=""
+                class="w-6 h-6 md:hidden lg:hidden"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col col-span-2 gap-24 md:gap-18">
+          <div class="flex flex-col mx-8 gap-1 md:w-[50vw]">
+            <p class="font-poppins text-base lg:text-lg font-light">
+              COLLEGES AND SCHOOLS
+            </p>
+            <div class="flex items-center gap-8 ">
+              <p class="text-2xl lg:text-3xl font-sumana text-[#0C2340]">
+                Physicist Laura Fields granted a Presidential Early Career Award
+              </p>
+              <img
+                src="./images/chevron-tight.svg"
+                alt=""
+                class="w-6 h-6 md:hidden lg:hidden"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col mx-8 gap-1 md:w-[50vw]">
+            <p class="font-poppins text-base lg:text-lg font-light">GLOBAL</p>
+            <div class="flex items-center gap-8">
+              <p class="text-2xl lg:text-3xl font-sumana text-[#0C2340]">
+                University of Notre Dame and Pontificia Universidad Católica de
+                Chile dual PhD program welcomes all disciplines
+              </p>
+              <img
+                src="./images/chevron-tight.svg"
+                alt=""
+                class="w-6 h-6 md:hidden lg:hidden"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
